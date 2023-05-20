@@ -15,9 +15,8 @@ object SeasonalTab : Tab {
         get() {
             val title = stringResource(R.string.seasonal_tab)
             val icon = rememberVectorPainter(Icons.Default.AccountBox)
-//            val isSelected = LocalTabNavigator.current.current.key == key
             return TabOptions(
-                index = 0u,
+                index = 1u,
                 title = title,
                 icon = icon
             )

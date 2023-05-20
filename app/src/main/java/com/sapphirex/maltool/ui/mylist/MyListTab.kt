@@ -15,9 +15,8 @@ object MyListTab : Tab {
         get() {
             val title = stringResource(R.string.myList_tab)
             val icon = rememberVectorPainter(Icons.Default.List)
-//            val isSelected = LocalTabNavigator.current.current.key == key
             return TabOptions(
-                index = 0u,
+                index = 3u,
                 title = title,
                 icon = icon
             )

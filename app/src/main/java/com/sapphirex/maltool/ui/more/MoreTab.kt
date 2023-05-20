@@ -17,7 +17,7 @@ object MoreTab : Tab {
             val icon = rememberVectorPainter(Icons.Default.MoreVert)
 //            val isSelected = LocalTabNavigator.current.current.key == key
             return TabOptions(
-                index = 0u,
+                index = 4u,
                 title = title,
                 icon = icon
             )

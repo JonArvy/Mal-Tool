@@ -20,7 +20,7 @@ object HomeTab : Tab {
                 title = title,
                 icon = icon
             )
-    }
+        }
 
 
     @Composable

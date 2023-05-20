@@ -16,7 +16,7 @@ object RecentTab : Tab {
             val title = stringResource(R.string.recent_tab)
             val icon = rememberVectorPainter(Icons.Default.Add)
             return TabOptions(
-                index = 0u,
+                index = 2u,
                 title = title,
                 icon = icon
             )
